@@ -2,7 +2,9 @@
 
 namespace App\View\Components;
 
-class TestSubject extends Base
+use Illuminate\View\Component;
+
+class TestSubject extends Component
 {
     public function __construct()
     {
