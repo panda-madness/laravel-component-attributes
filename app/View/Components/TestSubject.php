@@ -4,6 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
+// Our component
 class TestSubject extends Component
 {
     public function __construct()

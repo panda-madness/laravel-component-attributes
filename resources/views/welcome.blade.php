@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <x-test-subject :component="'Hello'" :test1="'asd'" test2="asdads" test3="asdads" />
+    // This is where we're trying to use our component
+    <x-test-subject :component="'Hello'"
+                    :test1="'asd'"
+                    test2="asdads"
+                    test3="asdads" />
 </body>
 </html>
