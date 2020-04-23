@@ -15,6 +15,6 @@ class TestSubject extends Base
         dump('dumping in render');
         dump($this->attributes); // still null
 
-        return $this->view('components.test-subject');
+        return view('components.test-subject');
     }
 }
